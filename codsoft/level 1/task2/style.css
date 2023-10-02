@@ -21,7 +21,7 @@ body{
 }
 header{
     background: rgb(27,21,94);
-    background: linear-gradient(180deg, rgba(27, 71, 155, 0.53) 8%, rgb(60, 119, 196) 46%, rgba(121, 25, 25, 0.05) 100%);
+    background: linear-gradient(180deg, rgba(38, 46, 60, 0.53) 8%, rgb(0, 53, 121) 46%, rgba(121, 25, 25, 0.05) 100%);
     height: 150px;
     display: flex;
     z-index: 99;
@@ -80,7 +80,7 @@ nav ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background: #336e80;
+    background: #124e84;
     position: absolute;
     left: 0%;
     bottom: -6px;
@@ -180,6 +180,10 @@ main{
     font-family: 'Quicksand', sans-serif;
 
     font-size: xx-large;
+    margin-left: 3%;
+    
+     
+      
 }
 .con{
     display: flex;
@@ -194,14 +198,22 @@ main{
     filter: grayscale(100%);
     -webkit-filter: grayscale(50%);
 
+    
+}
+.heading{
+  display: flex;
+  /* justify-content: center; */
 }
 .info{
     display: flex;
     align-self: center;
     /* margin-top: auto; */
     margin-left: 72px;
+    /* display: none; */
+    transition: 0.5s;
 
 }
+
 .info ul{
     
     color: white;
@@ -209,12 +221,57 @@ main{
     font-family: 'Josefin Sans', sans-serif;
     font-size: xX-large;
     font-weight: 400;
+    margin-top: 50px;
+
 }
 .info li{
     display: flex;
+    margin-top: -15px;
 }
 .info p{
     text-decoration:underline rgb(136, 80, 80) dotted;
+}
+#abtme input{
+  background-color: rgba(34, 75, 198, 0);
+  border: black 2px solid;
+  color: white;
+  width: 165px;
+  font-family: 'Quicksand', sans-serif;
+  margin-left: auto;
+
+}
+.info2{
+  display: flex;
+  align-self: center;
+  /* margin-top: auto; */
+  margin-left: 72px;
+  display: none;
+  transition: 0.5s;
+
+
+}
+
+.info2 ul{
+  
+  color: white;
+  list-style-type: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: xX-large;
+  font-weight: 400;
+  margin-top: 50px;
+
+}
+.info2 li{
+  margin-bottom: 4%;
+  /* display: flex; */
+  /* margin-top: -x; */
+}
+.info2 p{
+  /* text-decoration:underline rgb(136, 80, 80) dotted; */
+  color: bisque;
+}
+#abtme input:hover{
+  background-color: #15192c;
 }
 .sec3{
    
@@ -245,7 +302,7 @@ main{
   }
   .g img{
     padding-top: 10%;
-    height: 25vh;
+    height: 20vh;
    
 
   }
@@ -340,7 +397,7 @@ main{
  }
  .cv{
     margin-left: auto;
-    background-color: rgb(24, 108, 182);
+    background-color: #124e84;
     height: 3rem;
     width: 10rem;
     display: flex;
@@ -355,7 +412,7 @@ main{
  }
  footer{
     display: flex;
-    background-color: rgb(24, 108, 182);
+    background-color: #124e84;
     height: 40vh;
   }
   .text{

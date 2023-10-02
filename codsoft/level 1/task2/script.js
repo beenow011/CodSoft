@@ -27,3 +27,19 @@ function changeimg(x,image,y){
 
 }
 
+function toggleinfo(){
+    var y=document.getElementById("inf1")
+    var x=document.getElementById("inf2")
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        y.style.display = "none"
+        document.getElementById("btn").value="Info"
+      } else {
+        x.style.display = "none";
+        y.style.display = "block";
+        document.getElementById("btn").value="Schooling"
+
+
+      }
+}
